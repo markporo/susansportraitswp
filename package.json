@@ -1,0 +1,19 @@
+{
+  "name": "susansportraits",
+  "version": "1.0.0",
+  "description": "portraits by Susan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "TAILWIND_MODE=watch postcss css/tailwind.css -o css/tailwind.prod.css -w",
+    "prod": "NODE_ENV=production TAILWIND_MODE=build postcss css/tailwind.css -o css/tailwind.prod.css"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.1"
+  }
+}
